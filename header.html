@@ -1,0 +1,54 @@
+<!--This is the html that makes up the header which is called from all pages in the website via the include method.-->
+<header>
+<script>
+<!--
+function flink()
+{
+window.open("https://www.facebook.com");
+}
+
+function tlink()
+{
+window.open("https://twitter.com");
+}
+
+function ylink()
+{
+window.open("https://www.youtube.com");
+	
+}
+-->
+</script>
+
+
+  <div id = "logo">
+  <img src="images/logo.png" width="400" height="250" alt="main logo"/>
+</div>
+  <div id = "social_media_links">
+    <div id = "facebook_link"><img src="images/facebook_icon.png" width="50" height="50" alt="facebook link" onclick = "flink()">
+ </div>
+  <div id = "twitter_link" >
+  <img src="images/twitter_icon.png" width="50" height="50" alt="twitter link" onClick = "tlink()"></div>
+  
+  <div id = "youtube_link"><img src="images/youtube_icon.png" width="50" height="50" alt="youtube link" onClick = "ylink()"></div>
+</div>
+  <div id = "register">
+  <p id = "sign_in">Welcome</p>
+  <p></p>
+  <p id = "register_link"><a href = "registration_sign_in.php">Register for Newsleter</a></p>
+  </div>
+ <div id = "search_box">
+ <form>
+ <input type="text" size = "15">
+ <input type="button" value = "Search">
+ </form>
+ </div>
+</header>
+<nav><div id = "nav">
+<div class = "nav" id = "home_link"><a href = "index.php">Home</a></div>
+<div class = "nav" id = "products_link" ><a href = "products.php">Products</a></div>
+<div class = "nav" id = "contact_link"><a href = "contact_information.php">Contact Information</a></div>
+<div class = "nav" id = "feedback_link"><a href = "feedback.php">Feedback</a></div>
+<div class = "nav" id = "sitemap_link"><a href = "sitemap.php">Sitemap</a></div>
+</div>
+</nav>

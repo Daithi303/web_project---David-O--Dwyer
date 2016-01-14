@@ -1,0 +1,539 @@
+@charset "utf-8";
+/* CSS Document */
+header, hgroup, nav, footer, figure, figcaption, aside, section, article 
+{ 
+	display: block; 
+}
+
+body
+{
+	background-color: #333;
+	
+}
+
+#container
+{
+	width: 960px;
+	height: 943px;
+	background-image:url('images/container_background2.jpg');
+	margin-left:auto;
+	margin-right:auto;
+}
+
+
+
+#nav
+{
+	background-image:url('images/nav2.png');
+	margin-top:10px;
+	width:960px;
+	height:29px;
+	padding-top:8px;
+}
+
+
+.nav
+{
+	display:inline;	
+	
+}
+
+.nav a
+{
+	text-decoration:none;
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight:500;
+	color: #ccc;
+	font-size:1.1em;
+	
+}
+
+.nav a:hover
+{
+	color: #fff;
+}
+
+#home_link
+{
+	margin-left:90px;
+}
+
+#products_link
+{
+	margin-left:130px;
+}
+#contact_link
+{
+	margin-left:75px;
+}
+
+#feedback_link
+{
+	margin-left:70px;
+}
+
+#sitemap_link
+{
+	margin-left:110px;
+}
+
+
+
+#logo
+{
+	position:relative;
+	margin-left: 30px;
+	width: 400px;
+	height:270px;
+	
+}
+#logo img
+{
+	margin-top: 25px;
+}
+
+#social_media_links
+{
+	width:220px;
+	height:60px;
+	float:right;
+	position:relative;
+	margin:-240px 20px 0px 0px;
+}
+
+#facebook_link,#twitter_link,#youtube_link
+{
+	display:inline;
+	margin-left: 16px;
+	cursor:pointer;
+}
+
+#register
+{
+	float:right;
+	margin-top:-180px;
+	margin-right: 60px;
+	color:#333;	
+	font-family:Century Gothic,Geneva,sans-serif;
+	font-weight:bold;
+}
+
+#register a
+{
+	text-decoration:none;
+	color: #333;
+}
+
+#register a:hover
+{
+	color: #fff;
+}
+
+#search_box
+{
+	float:right;
+	margin-right:30px;
+	margin-top:-70px;
+}
+
+
+#content
+{
+	position:relative;
+	background-color:#000;
+	width:960px;
+	height:554px;
+	background: rgba(10, 17, 26,1);
+padding-top: 10px;
+}
+
+
+
+#slideshow
+{
+	width:860px;
+	height:260px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #C39446
+}
+
+.content_heading
+{
+	width:560px;
+	height:46px;
+	margin-left:50px;
+	
+}
+
+h1
+{
+	color:#ccc;	
+	font-family: Geneva,"Helvetica Neue",sans-serif;
+	font-size: 2.4em;
+}
+
+
+
+#home_blurb
+{
+	padding-top:5px;
+	color:#ccc;
+	font-family: Geneva,"Helvetica Neue",sans-serif;
+	width:860px;
+	margin-left:50px;
+	font-size:1.3em;	
+}
+
+#product_blurb
+{
+	color:#ccc;
+	font-family: Geneva,"Helvetica Neue",sans-serif;
+	width:860px;
+	margin-left:50px;
+	font-size:1em;	
+}
+
+
+.products
+{
+	width:400px;
+	height:160px;
+	background-color: #355580;
+	margin-bottom:10px;
+	cursor:pointer;
+}
+
+.products_desc
+{
+	position:absolute;
+	font-family: Arial,Geneva,sans-serif;
+	color: #000;
+	font-size:.8em;
+	margin-left: 10px;
+	margin-top: 50px;
+	width:170px;
+}
+
+.products img
+{
+	float:right;
+	margin-top:10px;
+	margin-right:10px;	
+}
+
+.products_headings
+{
+	font-family: Arial,Geneva,sans-serif;
+	color: #000;
+	font-size:1.5em;
+	position:absolute;
+	margin-left: 10px;
+}
+#drums
+{
+	float:right;
+	margin-top:-170px;
+}
+
+#pa_equipment
+{
+	float:right;
+	margin-top:-170px;
+}
+
+.product_wrapper
+{
+	width: 880px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.sidebar
+{
+	position:absolute;
+	width:200px;
+	height:514px;
+	margin-top:15px;
+	margin-left:50px;
+	display:inline;
+	background-color: #355580;
+}
+
+.sidebar table
+{
+	margin-top:20px;
+	margin-left:10px;
+	font-family: Arial,Geneva,sans-serif;
+	font-size:2em;
+}
+
+.sidebar a
+{
+	text-decoration:none;
+	color:#000;
+	font-size:.8em;
+}
+.sidebar a:hover
+{
+	background-color: #20406b;
+}
+
+.sidebar li
+{
+	list-style-type:none;
+	margin-left:-20px;
+	height:45px;
+}
+
+#content_wrapper
+{
+	overflow:scroll;
+	height:442px;
+}
+
+.products_content
+{
+	width:610px;
+	height:514px;
+	margin-top:15px;
+	margin-right:50px;
+	float:right;
+	display:inline;
+
+}
+
+
+.items
+{
+	width:161px;
+	height:200px;
+	float:right;
+	margin-right:15px;
+	margin-bottom:50px;
+	background-color:#355580;
+	
+}
+
+
+
+.items_wrapper
+{
+	height:200px;
+	width:550px;
+	margin-left:10px;
+	margin-top: 10px;
+}
+.items span
+{
+	width:161px;
+	display: block;
+	text-align:center;
+}
+
+button
+{
+	height:200px;
+	width:161px;
+	background: transparent;
+    border: none !important;
+	margin-left:-50px;
+	cursor: pointer;
+}
+
+button:focus 
+{
+    outline: none;
+}
+
+
+#item_description
+{
+	color:#ccc;
+	font-family: Arial,Geneva,sans-serif;
+	margin-left:50px;
+}
+#map
+{
+	margin: 10px 0px 0px 50px;
+	width:600px;
+	height:220px;
+}
+
+#feedback_report
+{
+	font-family: Arial,Geneva,sans-serif;
+	color: #ccc;
+	margin-left:50px;
+	margin-top:60px;
+	width:860px;
+	
+}
+
+#footer_wrapper
+{
+	width:960px;
+	height:30px;
+	background-color:rgba(0,0,0,.4);
+	color:#ccc;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;	
+	margin-top:15px;	
+}
+
+#form
+{
+	color:#ccc;	
+	margin-left:50px;
+}
+
+.form_button
+{
+	color:#ccc;	
+	margin-left:50px;
+}
+
+#outer_table
+{
+  width:860px;	
+
+}
+
+#form td
+{
+	height:40px;
+}
+
+#contact_details
+{
+	color:#ccc;
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+	width:290px;
+	float:right;
+	display:inline;
+	margin-top:-225px;
+	font-size:1.05em;
+}
+
+#contact_details a
+{
+	text-decoration:none;
+	color:#ccc;
+}
+
+#contact_details a:hover
+{
+	color:#888;
+}
+
+#directions
+{
+	color:#ccc;
+	margin-left:50px;
+	font-family: Arial,Geneva,sans-serif;
+	margin-top:-10px;
+	width: 860px;
+}
+
+#form input,.form textarea
+{
+
+	background-color:#eee;
+}
+
+#register_sign_in
+{
+	color:#ccc;
+	margin-left:50px;
+	margin-top:50px;
+	width:600px;
+}
+
+#reg_table td
+{
+	height:40px;
+}
+
+#thank_you
+{
+	margin-left:50px;
+	margin-top:20px;
+	color:#ccc;
+	font-family: Arial,Geneva,sans-serif;
+	font-size:1.3em;
+}
+
+#reg_list
+{
+	margin-left:50px;
+	margin-top:30px;
+	height:380px;
+	width:400px;
+
+	font-size:.8em;
+}
+
+#sitemap_paragraph
+{
+	color:#ccc;
+	margin-left:50px;
+	font-family: Arial,Geneva,sans-serif;
+	font-size:1em;
+	width:860px;
+}
+
+#feedback_paragraph
+{
+	width:860px;
+}
+
+#sitemap_table
+{
+	color:#777;
+	margin-left: 50px;
+	width: 860px;
+	margin-top:50px;
+	background-image:url('images/sitemap_background.jpg');
+	
+}
+
+#sitemap_table a
+{
+	text-decoration:none;
+	color:#888;
+	cursor:pointer;
+}
+
+#sitemap_table a:hover
+{
+	color:#ccc;
+}
+
+
+#sitemap_table td, #sitemap_table th
+{
+
+	width:200px;
+	height:80px;
+	text-align:center;
+	font-family: Arial,Geneva,sans-serif;
+}
+
+
+
+
+#footer_left, #footer_right
+{
+	display:inline;
+	width:440px;
+	text-align:center;
+}
+
+#footer_left
+{
+	float:left;
+}
+
+#footer_right
+{
+	float:right;
+}
